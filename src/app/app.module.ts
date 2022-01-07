@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { TestComponent } from './test/test.component';
 import { InlineComponent } from './inline/inline.component';
-import { DatabindingComponent } from './databinding/databinding.component'
+import { DatabindingComponent } from './databinding/databinding.component';
+import { PropbindingComponent } from './propbinding/propbinding.component'
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { DatabindingComponent } from './databinding/databinding.component'
     ServerComponent,
     TestComponent,
     InlineComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    PropbindingComponent
   ],
   imports: [
     BrowserModule
