@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventbindingComponent implements OnInit {
   serverStatus = "Server is not available";
+  serverName = ''
 
   constructor() { }
 
@@ -15,5 +16,9 @@ export class EventbindingComponent implements OnInit {
 
   onClickServer() {
     this.serverStatus = "Server available"
+  }
+
+  onChangeNameInput(event: any) {
+    this.serverName = event.target.value
   }
 }
